@@ -1,0 +1,81 @@
+{
+  "students": [
+    {
+      "name": "mostafa",
+      "age": "20",
+      "address": {
+        "city": "cairo",
+        "street": "10"
+      },
+      "email": "ahmed@gmail.com",
+      "phone": "011111",
+      "id": 1
+    },
+    {
+      "name": "ALI",
+      "age": "22",
+      "address": {
+        "city": "portsaid",
+        "street": "20"
+      },
+      "email": "tamer@gmail.com",
+      "phone": "022222222",
+      "id": 2
+    },
+    {
+      "name": "sara",
+      "age": "77",
+      "address": {
+        "city": "portsaid",
+        "street": "20"
+      },
+      "email": "sara@gmail.com",
+      "phone": "0212312",
+      "id": 2
+    },
+    {
+      "name": "nada",
+      "age": "66",
+      "address": {
+        "city": "giza",
+        "street": "15"
+      },
+      "email": "nada@gmail.com",
+      "phone": "16515",
+      "id": 2
+    },
+    {
+      "name": "ali",
+      "age": "20",
+      "address": {
+        "city": "ismailia",
+        "street": "78"
+      },
+      "email": "asdas@sads.asd",
+      "phone": "12315",
+      "id": 4
+    },
+    {
+      "name": "germin",
+      "age": "127",
+      "address": {
+        "city": "helwan",
+        "street": "2"
+      },
+      "email": "germin@yahoo.com",
+      "phone": "0123456789",
+      "id": 5
+    },
+    {
+      "name": "kamal",
+      "age": "26",
+      "address": {
+        "city": "ismailia",
+        "street": "7"
+      },
+      "email": "karawan@asd.asd",
+      "phone": "0987654321",
+      "id": 6
+    }
+  ]
+}

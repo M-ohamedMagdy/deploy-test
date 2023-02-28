@@ -1,0 +1,13 @@
+<div>
+  <ul *ngIf="student ; else loadingBlock">
+      <li>Name: {{student.name}}</li>
+      <li>Age: {{student.age}}</li>
+      <li>Address: {{student.address.street}},{{student.address.city}}</li>
+      <li>Email: {{student.email}}</li>
+      <li>Phone: {{student.phone}}</li>
+  </ul>
+</div>
+
+<ng-template #loadingBlock>
+  <h1>Loading...</h1>
+</ng-template>

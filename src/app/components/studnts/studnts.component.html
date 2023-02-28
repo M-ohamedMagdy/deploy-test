@@ -1,0 +1,30 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">ID</th>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Age</th>
+        <th colspan="2">Address</th>
+        <th rowspan="2">Update</th>
+        <th rowspan="2">Delete</th>
+      </tr>
+      <tr>
+        <th>St.No.</th>
+        <th>City</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let i of students">
+        <td><a routerLink="/studnts/{{i.id}}">{{ i.id }}</a></td>
+        <td>{{ i.name }}</td>
+        <td>{{ i.age }}</td>
+        <td>{{ i.address.street }}</td>
+        <td>{{ i.address.city }}</td>
+        <td><a routerLink="/update/{{i.id}}"><button class="btn btn-primary rounded-pill">update</button> </a></td>
+        <td><a href="/studnts"><button (click)="delete(i.id)" class="btn btn-danger rounded-pill">delete</button></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

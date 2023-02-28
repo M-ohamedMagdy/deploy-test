@@ -1,0 +1,31 @@
+<form class="d-flex flex-column align-items-center" *ngIf="student">
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">Name</label>
+    <input #name type="text" class="form-control" [value]="student.name">
+  </div>
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">Age</label>
+    <input #age type="text" class="form-control" [value]="student.age">
+  </div>
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">City</label>
+    <input #city type="text" class="form-control" [value]="student.address.city">
+  </div>
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">Street NO.</label>
+    <input #street type="text" class="form-control" [value]="student.address.street">
+  </div>
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">Email</label>
+    <input #email type="text" class="form-control" [value]="student.email">
+  </div>
+  <div class="form-group d-flex flex-column align-items-center">
+    <label class="form-label">Phone</label>
+    <input #phone type="text" class="form-control" [value]="student.phone">
+  </div>
+  <div class="form-group text-center">
+    <input type="button" class="btn btn-success mt-3" value="UPDATE" (click)="update(name.value,age.value,city.value,street.value,email.value,phone.value)">
+  </div>
+
+</form>
+
